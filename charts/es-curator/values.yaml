@@ -52,21 +52,16 @@ env: {}
 
 configMaps:
   config: |
-
-    client:
-      hosts:
-        - http://localhost:9200
-      # port: 9200
-      url_prefix:
-      http_auth:
-      use_ssl: False
-      certificate:
-      client_cert:
-      client_key:
-      ssl_no_validate: False
-      # http_compress: True
-      timeout: 30
-      master_only: False
+    elasticsearch:
+      client:
+        hosts: https://elasticsearch-master:9200
+        request_timeout: 60
+        http_compress: True
+        verify_certs: False
+      other_settings:
+        master_only: True
+        username: elastic
+        password: admin
     logging:
       loglevel: INFO
       logfile:
