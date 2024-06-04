@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  es-curator:
+  - apiVersion: v2
+    appVersion: 8.0.15
+    created: "2024-06-04T13:12:41.674386401+05:30"
+    description: An updated version of es-curator helm chart for Kubernetes
+    digest: 793c8594ccc2eb463ca819c6d714fa3f8f3ba8edc78f0b67ba0e8990052fcc4b
+    keywords:
+    - curator
+    - elasticsearch
+    - elasticsearch-curator
+    name: es-curator
+    type: application
+    urls:
+    - https://acidbotmaker.github.io/es-curator/releases/es-curator-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-06-04T13:12:41.674064813+05:30"

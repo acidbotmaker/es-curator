@@ -1,0 +1,10 @@
+apiVersion: v2
+appVersion: "8.0.15"
+description: An updated version of es-curator helm chart for Kubernetes
+name: es-curator
+type: application
+version: 0.1.0
+keywords:
+- curator
+- elasticsearch
+- elasticsearch-curator
